@@ -84,3 +84,6 @@ TestResults/
 # Generated sources
 *.generated.cs
 
+# Environment variables (do not commit secrets)
+.env
+.env.*
