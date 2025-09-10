@@ -1,0 +1,86 @@
+# ASP.NET Core / .NET / Visual Studio
+
+# Logs
+*.log
+*.svclog
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa]rtifacts/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esults/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.opendb
+*.VC.db
+*_i.c
+*_p.c
+*_h.h
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.[Rr]e[Ss]harper*/
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+.nuget/
+
+# MSBuild / Cache
+*.cache
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+*.cachefile
+
+# Publish outputs
+app.publish/
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# IIS / Azure / Misc
+_IISExpress/
+.localhistory/
+.httplog/
+
+# Coverage
+*.coverage
+*.coveragexml
+TestResults/
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Generated sources
+*.generated.cs
+
