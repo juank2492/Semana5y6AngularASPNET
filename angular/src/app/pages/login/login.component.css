@@ -1,0 +1,16 @@
+:host { display: block; }
+
+.login-bg {
+  background: linear-gradient(135deg, #e9f2ff 0%, #f8f9fa 100%);
+  padding: 1rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 440px;
+  border-radius: 16px;
+}
+
+.form-label {
+  font-weight: 500;
+}

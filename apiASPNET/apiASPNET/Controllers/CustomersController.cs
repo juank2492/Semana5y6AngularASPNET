@@ -26,7 +26,8 @@ public class CustomersController(AppDbContext db) : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Customer>> Create(Customer customer)
     {
-        var sub = User.FindFirstValue(JwtRegisteredClaimNames.Sub);
+        var sub = User.FindFirstValue(ClaimTypes.NameIdentifier) ??
+                  User.FindFirstValue(JwtRegisteredClaimNames.Sub);
         if (!int.TryParse(sub, out var userId))
         {
             return Forbid();

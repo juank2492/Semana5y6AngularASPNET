@@ -193,3 +193,23 @@ Respuesta 204 No Content.
 La API permite orígenes desde Angular en `http://localhost:4200`. Si tu frontend usa otra URL, actualiza la política CORS en `Program.cs`.
 
 
+
+## Frontend Angular – Ejecución
+
+Pasos concretos para levantar el cliente Angular y probar el login/CRUD:
+
+1) Backend encendido en HTTPS: `https://localhost:7122` (ejecuta la API como se indica arriba)
+
+2) Instalar dependencias y levantar Angular
+
+```
+cd angular
+npm install
+npm start
+```
+
+3) Abrir en el navegador: `http://localhost:4200`
+
+4) Iniciar sesión con: usuario `admin` y contraseña `123456`
+
+Listo: verás el Home con “Clientes”, tabla, creación/edición (modal) y eliminación (confirmación).
