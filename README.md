@@ -194,7 +194,7 @@ La API permite orígenes desde Angular en `http://localhost:4200`. Si tu fronten
 
 
 
-## Frontend Angular – Ejecución
+# Frontend Angular – Ejecución
 
 Pasos concretos para levantar el cliente Angular y probar el login/CRUD:
 
@@ -213,3 +213,23 @@ npm start
 4) Iniciar sesión con: usuario `admin` y contraseña `123456`
 
 Listo: verás el Home con “Clientes”, tabla, creación/edición (modal) y eliminación (confirmación).
+
+
+# Evidencia en imagenes
+## Postman
+<img width="886" height="313" alt="image" src="https://github.com/user-attachments/assets/09dd8499-55e5-4715-a281-0a5ba6bea327" />
+<img width="886" height="309" alt="image" src="https://github.com/user-attachments/assets/1f8213b5-e9ff-47b4-8ef3-72cd76b850eb" />
+<img width="886" height="404" alt="image" src="https://github.com/user-attachments/assets/7a870139-09b6-4520-bd6c-9f53e0d1fda7" />
+<img width="886" height="323" alt="image" src="https://github.com/user-attachments/assets/c0fb1490-57f0-4fa5-b670-cece86c19931" />
+<img width="886" height="443" alt="image" src="https://github.com/user-attachments/assets/dfcfbe62-fd5c-42a0-93c5-834332df34ef" />
+<img width="886" height="300" alt="image" src="https://github.com/user-attachments/assets/121cecbe-7a6d-469b-b7ca-7f4bbf3d845b" />
+
+## Frontend
+<img width="886" height="485" alt="image" src="https://github.com/user-attachments/assets/2623979c-dfd7-4711-ad63-cae358afabea" />
+<img width="886" height="152" alt="image" src="https://github.com/user-attachments/assets/cb5e8eaa-96d5-4de0-824e-b8938c2a11b6" />
+<img width="886" height="391" alt="image" src="https://github.com/user-attachments/assets/4bf5879b-06fb-48d9-9364-7c4b4662a2b0" />
+<img width="886" height="342" alt="image" src="https://github.com/user-attachments/assets/cdda0cbb-8975-493f-902f-987de29c7271" />
+<img width="886" height="176" alt="image" src="https://github.com/user-attachments/assets/8fa72691-e713-4b74-a88f-b01c3c72d502" />
+
+
+
